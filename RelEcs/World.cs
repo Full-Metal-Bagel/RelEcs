@@ -8,7 +8,7 @@ namespace RelEcs
     {
         static int worldCount;
 
-        readonly Entity _world;
+        internal readonly Entity _world;
         readonly WorldInfo _worldInfo;
 
         readonly Archetypes _archetypes = new();
